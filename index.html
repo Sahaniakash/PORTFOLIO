@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Portfolio</title>
+
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info"> 
+
+        <figure class="avatar-box">
+          <img src="profile.png" alt="Akash Sahani" width="80">
+        </figure> 
+      
+
+        <div class="info-content">
+          <h1 class="name" title="Akash Sahani">Akash Sahani</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Contacts</span>
+        </button>
+
+        <div class="sidebar-info_more" style="display: none;"> </div>
+          <div class="separator"></div>
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box"><ion-icon name="mail-outline"></ion-icon></div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+                <a href="Gmail:sahaniakash511@gmail.com" class="contact-link">sahaniakash511@gmail.com</a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box"><ion-icon name="phone-portrait-outline"></ion-icon></div>
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+                <a href="tel:+918767455509" class="contact-link">+91 8767455509</a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box"><ion-icon name="calendar-outline"></ion-icon></div>
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+                <time datetime="2000-11-27">Nov 27, 2000</time>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box"><ion-icon name="location-outline"></ion-icon></div>
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+                <address>Santacruz, Mumbai, India</address>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/skysahanii/profilecard/?igsh=dnpuem9tbDVpM2th" class="social-link">
+              <ion-icon name="logo-Instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/akash-sahani-616b79231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="social-link">
+              <ion-icon name="logo-LINKEDIN"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Sahaniakash" class="social-link">
+              <ion-icon name="logo-GITHUB"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+  <ul class="navbar-list">
+    <li class="navbar-item">
+      <button class="navbar-link active" data-nav-link>About</button>
+    </li>
+    <li class="navbar-item">
+      <button class="navbar-link" data-nav-link>Resume</button>
+    </li>
+    <li class="navbar-item">
+      <button class="navbar-link" data-nav-link>Portfolio</button>
+    </li>
+    <li class="navbar-item">
+      <button class="navbar-link" data-nav-link>Projects</button>
+    </li>
+    <li class="navbar-item">
+      <button class="navbar-link" data-nav-link>Contact</button>
+    </li>
+  </ul>
+</nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a passionate and motivated Web Developer with a Bachelor’s degree in Computer Applications. <br> 
+            As a fresher, I am eager to contribute my skills in HTML, CSS, JavaScript, and React.js to create dynamic and user-friendly web applications. 
+            I have completed an internship at Unified Mentor Pvt Ltd, where I gained hands-on experience in developing and maintaining website. <br>
+            My technical expertise includes front-end development, responsive design, and database management with MySQL. 
+            I have worked on projects like a Garage Management System, a Task Management Dashboard, and a Calculator, showcasing my problem-solving abilities and attention to detail. <br>
+            I am always eager to learn new technologies, collaborate with teams, and take on challenges that help me grow as a developer. My goal is to build efficient, scalable, and user-centric web solutions that make an impact.
+          </p>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelor of Computer Applications (BCA)</h4>
+
+              <span> 2024</span>
+
+              <p class="timeline-text">
+                Tilak Maharashtra Vidyapeeth <br>
+                Pune, India
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Class 12th (HSC), Science</h4>
+
+              <span>2021</span>
+
+              <p class="timeline-text">
+                R.D. National & W.A Science College <br>
+                Mumbai, India
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Class 10th (SSC)</h4>
+
+              <span>2018</span>
+
+              <p class="timeline-text">
+                Rev. C.F. Andrews School <br>
+                Mumbai, India
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Projects</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Garage Management System</h4>
+
+              <span>2024</span>
+
+              <p class="timeline-text">
+                Garage Management System built using HTML,CSS & JS to manage garage operations, including 
+                customer details, vehicle info, appointments, billing, and inventory, 
+                ensuring efficiency and better service.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> Task Management Dashboard</h4>
+
+              <span>2024</span>
+
+              <p class="timeline-text">
+                A responsive Task Management Dashboard built using HTML, CSS, 
+                and JavaScript. It allows users to track, organize, and manage tasks 
+                efficiently with an intuitive interface and interactive features.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Calculator</h4>
+
+              <span>2023</span>
+
+              <p class="timeline-text">
+                A simple, interactive calculator built with HTML, CSS, and 
+                JavaScript.  Perfect for learning and practicing web development 
+                skills!
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">RELEVANT COURSEWORK</h3>
+          </div> 
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Development Fundamentals</h4>
+
+              <p> Introduction to web 
+                technologies, including HTML, CSS, and JavaScript.</p>
+
+                <ol class="timeline-list">
+
+                  <li class="timeline-item">
+      
+                    <h4 class="h4 timeline-item-title"> Front-End Development</h4>
+      
+                    <p> Focused on building user interfaces 
+                      using HTML, CSS, JavaScript, and frameworks like React.js.</p>
+
+                      <ol class="timeline-list">
+
+                        <li class="timeline-item">
+            
+                          <h4 class="h4 timeline-item-title">Database Management</h4>
+            
+                          <p> Introduction to relational databases 
+                            (MySQL) and NoSQL databases (MongoDB), and how to integrate 
+                            them into web applications.</p>
+                          </li>
+
+                        </ol>
+              
+                      </section>
+                            
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming languages</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Frameworks</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Databases</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Soft Skills</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="Garage Management System.png" alt=" Garage Management System" loading="lazy">
+                </figure>
+
+                <h3 class="project-title"> Garage Management System</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="calculator.png" alt="Calculator" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Calculator</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="tms.jpg" alt="Task Management System " loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Management System</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>            
+          </ul>
+
+        </section>
+
+      </article>
+      
+<!--
+  - #PROJECTS
+-->
+
+<article class="projects" data-page="projects">
+  <header>
+    <h2 class="h2 article-title">Projects</h2>
+  </header>
+
+  <section class="projects-list">
+    <!-- Project 1: Garage Management System -->
+    <div class="project-card content-card">
+      <div class="project-header">
+        <h3 class="h3 project-card-title">Garage Management System</h3>
+        
+      </div>
+      
+      <figure class="project-banner">
+        <img src="Garage Management System.png" alt="Garage Management System" loading="lazy">
+      </figure>
+      
+      <div class="project-content">
+        <p class="project-description">
+          A comprehensive Garage Management System built using HTML, CSS, and JavaScript. This application helps 
+          manage garage operations including customer details, vehicle information, appointments, billing, and inventory.
+          The system ensures efficiency and better service delivery for auto repair shops.
+        </p>
+        
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">MySQL</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2: Task Management Dashboard -->
+    <div class="project-card content-card">
+      <div class="project-header">
+        <h3 class="h3 project-card-title">Task Management Dashboard</h3>
+        <div class="project-links">
+          <a href="https://task-management-dashboard-ochre.vercel.app/" class="project-link-btn" target="_blank">
+            <ion-icon name="link-outline"></ion-icon>
+            <span>Live Demo</span>
+          </a>
+          <a href="https://github.com/Sahaniakash/TDM" class="project-link-btn" target="_blank">
+            <ion-icon name="logo-github"></ion-icon>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <figure class="project-banner">
+        <img src="tms.jpg" alt="Task Management Dashboard" loading="lazy">
+      </figure>
+      
+      <div class="project-content">
+        <p class="project-description">
+          A responsive Task Management Dashboard built using HTML, CSS, and JavaScript. It allows users to track, 
+          organize, and manage tasks efficiently with an intuitive interface and interactive features. The dashboard 
+          includes task categorization, priority setting, and deadline tracking.
+        </p>
+        
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">Responsive Design</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 3: Calculator -->
+    <div class="project-card content-card">
+      <div class="project-header">
+        <h3 class="h3 project-card-title">Calculator</h3>
+        <div class="project-links">
+          <a href="https://github.com/Sahaniakash/calculator" class="project-link-btn" target="_blank">
+            <ion-icon name="logo-github"></ion-icon>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <figure class="project-banner">
+        <img src="calculator.png" alt="Calculator" loading="lazy">
+      </figure>
+      
+      <div class="project-content">
+        <p class="project-description">
+          A simple, interactive calculator built with HTML, CSS, and JavaScript. This project demonstrates fundamental 
+          web development skills including DOM manipulation, event handling, and mathematical operations. The calculator 
+          features a clean, user-friendly interface with standard arithmetic functions.
+        </p>
+        
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 4: Portfolio Website -->
+    <div class="project-card content-card">
+      <div class="project-header">
+        <h3 class="h3 project-card-title">Portfolio Website</h3>
+        <div class="project-links">
+          <a href="#" class="project-link-btn" target="_blank">
+            <ion-icon name="link-outline"></ion-icon>
+            <span>Live Demo</span>
+          </a>
+          <a href="https://github.com/Sahaniakash/portfolio" class="project-link-btn" target="_blank">
+            <ion-icon name="logo-github"></ion-icon>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+      
+      <figure class="project-banner">
+        <img src="profile.png" alt="Portfolio Website" loading="lazy">
+      </figure>
+      
+      <div class="project-content">
+        <p class="project-description">
+          My personal portfolio website built with HTML, CSS, and JavaScript. This responsive website showcases my 
+          skills, projects, and experience in web development. Features include dark/light mode toggle, smooth 
+          animations, and a clean, modern design that highlights my work effectively.
+        </p>
+        
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">Responsive Design</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="script.js"></script>
+
+  <!-- Ionicons CDN -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+
+</body>
+
+</html>
+
